@@ -1,0 +1,58 @@
+body{
+    font-family: "Microsoft YaHei";
+    margin: 0;
+    padding: 0;
+}
+/*nav*/
+/*header*/
+#header{
+    background-image: url("../img/hero-bg.jpg");
+    text-align: center;
+    padding: 65px 0px 475px;
+}
+#header h1 span{
+    color: #c0c0c0;
+}
+#header #btn a{
+    padding: 20px 35px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+#template{
+    background-color: #F3F5F8;
+    padding: 100px 0px;
+    text-align: center;
+}
+#template p{
+    margin-top: 30px;
+}
+#well{
+    text-align: center;
+    padding: 50px 0px 30px;
+}
+#well .sign{
+    margin-bottom: 50px;
+}
+#well .circle{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: #20baaa;
+    margin: auto;
+}
+#well .circle i{
+    display: block;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 175px;
+    text-shadow: 1px 1px #999,2px 2px #999,3px 3px #999,4px 4px #999;
+}
+#well h5{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#well .lorem{
+    color: #bbb;
+}
