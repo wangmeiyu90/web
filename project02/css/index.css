@@ -18,6 +18,7 @@ body{
     font-weight: 600;
     margin-top: 100px;
 }
+/*****************************************/
 #template{
     background-color: #F3F5F8;
     padding: 100px 0px;
@@ -26,6 +27,7 @@ body{
 #template p{
     margin-top: 30px;
 }
+/************************************/
 #well{
     text-align: center;
     padding: 50px 0px 30px;
@@ -55,4 +57,144 @@ body{
 }
 #well .lorem{
     color: #bbb;
+}
+
+/******************************************/
+#design{
+    text-align: center;
+}
+#design #phone{
+    /*background-color: #c0c0c0;*/
+    padding: 50px 0px 400px 150px;
+    background: #c0c0c0  url("../img/iphone-bg.png") no-repeat 50px -130px;
+    /*background-position: 50px 0;*/
+
+}
+/*****************************************************/
+#problems{
+    background: transparent url("../img/plants-bg.jpg") no-repeat fixed center center;
+    padding: 50px 0;
+    text-align: center;
+}
+#problems .problem{
+    color: #fff;
+}
+#problems .problem p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+#problems .chevron-down{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#20baaa ;
+    margin: 30px auto;
+}
+#problems .chevron-down i{
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+}
+/*****************************************/
+#creative{
+    margin-top: 30px;
+    text-align: center;
+}
+#creative h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#creative p{
+    color: #bbbbbb;
+}
+/**************************/
+#passion{
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+#passion a{
+    display: inline-block;
+    padding: 30px 40px;
+    margin: 50px 0;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+#passion a:hover{
+    color: #4cae4c;
+    border: 1px solid #4cae4c;
+}
+/***************/
+#team{
+    text-align: center;
+}
+#team .title{
+    margin-bottom: 50px;
+}
+#team h5{
+    font-weight: bold;
+    margin: 20px 0;
+}
+#team p{
+    color: #bbb;
+}
+#team ul li a{
+    display: inline-block;
+    width: 40px;
+    hieght: 40px;
+    border-radius: 50%;
+    background-color: #000;
+}
+#team ul li a i{
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+}
+#team ul li a:hover{
+    background-color: #20baaa;
+}
+/***************/
+#loop{
+    margin: 100px 0px;
+    padding: 100px 0px;
+    text-align: center;
+    color: #fff;
+    background:transparent url("../img/keyboard-bg.jpg") no-repeat fixed center center;
+}
+#loop i{
+    font-size: 24px;
+}
+#loop #user{
+    background-color: rgba(255,255,255,0.1);
+    margin-top: 10px;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+}
+#loop #sub{
+    background-color: rgba(61,201,179,0.5);
+    padding: 15px 20px;
+    border: 1px solid #4cae4c;
+}
+#loop a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(61,201,179,0.5);
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    bottom: -125px;
+}
+#loop a i{
+    color: #fff;
+    line-height: 50px;
+    z-index: 2;
+}
+#loop a:hover{
+    background-color: #20baaa;
 }
