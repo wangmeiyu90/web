@@ -13,6 +13,48 @@ body{
 #header h1 span{
     color: #c0c0c0;
 }
+#header h1{
+    -webkit-animation: changea 3s linear;
+}
+@-webkit-keyframes changea {
+    from{
+        opacity: 0;
+        margin-top:-30px;
+    }
+    20% {
+        opacity: 0.3;
+        margin-top:-20px;
+    }
+    50% {
+        opacity: 0.8;
+        margin-top:-10px;
+    }
+    to {
+        opacity: 1;
+        margin-top:0px;
+    }
+}
+#header p{
+    -webkit-animation: changea 3s linear;
+}
+/*@-webkit-keyframes change {*/
+    /*from{*/
+        /*opacity: 0;*/
+        /*margin-top:40px;*/
+    /*}*/
+    /*20% {*/
+        /*opacity: 0.3;*/
+        /*margin-top:30px;*/
+    /*}*/
+    /*50% {*/
+        /*opacity: 0.8;*/
+        /*margin-top:10px;*/
+    /*}*/
+    /*to {*/
+        /*opacity: 1;*/
+        /*margin-top:0px;*/
+    /*}*/
+/*}*/
 #header #btn a{
     padding: 20px 35px;
     font-weight: 600;
@@ -142,24 +184,24 @@ body{
 #team p{
     color: #bbb;
 }
-#team ul li a{
+#team ul li a,#drop ul li a{
     display: inline-block;
     width: 40px;
     hieght: 40px;
     border-radius: 50%;
     background-color: #000;
 }
-#team ul li a i{
+#team ul li a i,#drop ul li a i{
     color: #fff;
     font-size: 16px;
     line-height: 40px;
 }
-#team ul li a:hover{
+#team ul li a:hover,#drop ul li a:hover{
     background-color: #20baaa;
 }
 /***************/
 #loop{
-    margin: 100px 0px;
+    margin: 100px 0 0 0;
     padding: 100px 0px;
     text-align: center;
     color: #fff;
@@ -180,21 +222,60 @@ body{
     border: 1px solid #4cae4c;
 }
 #loop a{
-    display: block;
+    display:inline-block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: rgba(61,201,179,0.5);
-    margin: auto;
     position: absolute;
-    left: 50%;
+    left: 48%;
     bottom: -125px;
 }
 #loop a i{
     color: #fff;
     line-height: 50px;
-    z-index: 2;
 }
 #loop a:hover{
     background-color: #20baaa;
+}
+#drop{
+    background-color: #eee;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#drop h4{
+    font-weight: bold;
+    margin-top: 100px;
+}
+#drop .message{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px 25px;
+    background-color: #fff;
+}
+#drop .message i{
+    font-size: 18px;
+}
+#drop .message h5{
+    font-weight: bold;
+    color: #20baaa;
+    margin: 20px 0;
+}
+#drop .under{
+    width: 35px;
+    height: 4px;
+    background-color: #20baaa;
+    margin: 20px auto;
+}
+#drop p{
+    margin: 30px 0 20px;
+}
+/*********************************/
+#footer{
+    width: 100%;
+    padding: 30px 0;
+    background-color: #242830;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
 }
