@@ -1,3 +1,5 @@
-//$(function(){
-//    $("h2").fadeIn(3000);
-//})
+$("h1").show("slow");
+$("p").slideDown(3000);
+
+
+
